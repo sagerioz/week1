@@ -1,0 +1,121 @@
+body {
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    height: 125px;
+    background-color: #1e8785;
+    /* Dark Blue */
+}
+
+/*this removes unwanted space at the top of the header. Also lets
+you style the heading 1/logo within the header separately than
+the rest of the heading 1's*/
+header h1 {
+  margin: 0;
+}
+
+footer {
+    height: 100px;
+    background-color: #1e8785;
+      /* Dark Blue */
+    color: white;
+    text-align: center;
+    line-height: 100px;
+
+}
+img { width: 100%; }
+h1 {
+font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    height: 200px;
+/*google font*/
+
+}
+h2 {
+    color: rgb(159, 200, 58);
+    text-align: left;
+
+}
+
+h3 {
+    color: rgb(159, 200, 58);
+    text-align: left;
+
+}
+
+p {
+    color: (166, 136, 8);
+    text-align: left;
+    line-height: 1.5;
+}
+div{
+  margin: 10px 300px 10px 300px;
+
+}
+
+.wrapper {
+  width: 735px;
+  margin: auto;
+}
+
+.container-name {
+  background-image: url('images/chevron.png');
+  background-repeat: repeat;
+}
+#box {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+#rcorners1 {
+    border-radius: 0px;
+    background: #e1eda4;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorners3 {
+    border-radius: 15px;
+    width: 735px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+a:link, a:visited {
+    color: rgb(181, 167, 48);
+    text-decoration: none;
+}
